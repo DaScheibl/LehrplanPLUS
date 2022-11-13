@@ -3,12 +3,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LehrplanPLUS</title>
     <link rel="shortcut icon" href="main/images/Kraft.png" type="image/x-icon">
-    <link href="css/layout.css" rel="stylesheet" type="text/css" media="projection, screen, tv">
-    <link href="css/fb_real.css" rel="stylesheet" type="text/css" media="projection, screen, tv">
-    <link href="css/lytebox.css" rel="stylesheet" type="text/css" media="screen">
-    <link href="css/print.css" rel="stylesheet" type="text/css" media="print">
-    <link href="css/jquery.qtip.min.css" rel="stylesheet" type="text/css" media="projection, screen, tv">
-    <script async="" src="js/matomo.js"></script>
+    <link href="main/css/layout.css" rel="stylesheet" type="text/css" media="projection, screen, tv">
+    <link href="main/css/fb_real.css" rel="stylesheet" type="text/css" media="projection, screen, tv">
+    <link href="main/css/lytebox.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="main/css/print.css" rel="stylesheet" type="text/css" media="print">
+    <link href="main/css/jquery.qtip.min.css" rel="stylesheet" type="text/css" media="projection, screen, tv">
+    <script async="" src="main/js/matomo.js"></script>
     <script>
         var _paq = window._paq = window._paq || [];
         /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -41,32 +41,32 @@
     
             <div>
                 <div id="header_zeile_1" class="breite">
-                    <a href="https://www.realschule-vohenstrauss.de" target="_blank" class="logo_isb" data-hasqtip="2" oldtitle="Staatliche Realschule Vohensrauß" title="" aria-describedby="qtip-2"><img src="/images/logo_schrift_rechts_neu2.png" alt="Staatliche Realschule Vohensrauß" width="900" height="90"style="display:block; float: left;"></a>
+                    <a href="https://www.realschule-vohenstrauss.de" target="_blank" class="logo_isb" data-hasqtip="2" oldtitle="Staatliche Realschule Vohensrauß" title="" aria-describedby="qtip-2"><img src="main/images/logo_schrift_rechts_neu2.png" alt="Staatliche Realschule Vohensrauß" width="900" height="90"style="display:block; float: left;"></a>
                     <div class="clr"></div>
                 </div>
                 <div id="header_zeile_2" class="breite">
                     <nav id="header_zeile_2b">
                         <ul>
-                            <li><a href="/" data-hasqtip="3" oldtitle="Zur Startseite" title=""><span>Startseite</span></a></li>
+                            <li><a href="main/index.html" data-hasqtip="3" oldtitle="Zur Startseite" title=""><span>Startseite</span></a></li>
                                 <li>
-                                    <a href="/pages/Hilfe.html" target="_blank" data-hasqtip="4" oldtitle="Zu den Hilfeseiten" title=""><span>Hilfe</span></a>
+                                    <a href="main/pages/Hilfe.html" target="_blank" data-hasqtip="4" oldtitle="Zu den Hilfeseiten" title=""><span>Hilfe</span></a>
                                 </li>
-                                <li><a href="/pages/Kontakt.html" target="_blank" data-hasqtip="5" oldtitle="Zur Kontaktseite" title=""><span>Kontakt</span></a></li>
+                                <li><a href="main/pages/Kontakt.html" target="_blank" data-hasqtip="5" oldtitle="Zur Kontaktseite" title=""><span>Kontakt</span></a></li>
                                 <li>
-                                    <form action="/index.html" method="post" id="schnell_suche">
+                                    <form action="main/index.html" method="post" id="schnell_suche">
                                         <fieldset>
                                             <legend>
                                                 <label for="detail_search_query_quick" class="hidden">Suchbegriff(e) eingeben</label>
                                             </legend>
                                             <p class="suche">
                                                 <input type="text" class="box" name="detail_search[query]" id="detail_search_query_quick" size="30" value="Suche" onblur="if(this.value=='')this.value='Suche';" onfocus="if(this.value=='Suche')this.value='';" data-hasqtip="6" oldtitle="Suchbegriff eingeben. Um alle Wörter zu finden, die mit Ihrem Suchbegriff beginnen, hängen Sie ein * an." title="">
-                                                <input type="image" src="/images/bg_header_zeile_2_such_btn.gif" alt="Suchen" id="suchen" name="suchen" class="btn" data-hasqtip="7" oldtitle="Suchen" title="">
+                                                <input type="image" src="main/images/bg_header_zeile_2_such_btn.gif" alt="Suchen" id="suchen" name="suchen" class="btn" data-hasqtip="7" oldtitle="Suchen" title="">
                                             </p>
                                         </fieldset>
                                     </form>
                                 </li>
                                 <li>
-                                    <a href="index.html" data-hasqtip="8" oldtitle="Zur erweiterten Suche" title=""><span>Erweiterte Suche</span></a>
+                                    <a href="main/index.html" data-hasqtip="8" oldtitle="Zur erweiterten Suche" title=""><span>Erweiterte Suche</span></a>
                                 </li>
                                 <li class="last">
                                     <div id="pdf_sammeln">
@@ -84,7 +84,7 @@
                             <div class="login">
                                 <div class="login_inner">
                                     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="login_zugang" data-hasqtip="10" oldtitle="Krafti" title="">
-                                        <img class="mebis-login" src="/images/Kraftihaftigroß.jpg" width="200" alt="Kraft">
+                                        <img class="mebis-login" src="main/images/Kraftihaftigroß.jpg" width="200" alt="Kraft">
                                     </a>
                                 </div>
                             </div>
@@ -122,37 +122,37 @@
                     <h3>Fach</h3>
                     <ul class="auswahl">
                         <li>
-                            <a href="\pages\fächer\biologie.html" title=""> Biologie </a>
+                            <a href="main\pages\fächer\biologie.html" title=""> Biologie </a>
                         </li>
                         <li>
-                            <a href="\pages\fächer\chemie.html" title=""> Chemie </a>
+                            <a href="main\pages\fächer\chemie.html" title=""> Chemie </a>
                         </li>
                         <li>
-                            <a href="\pages\fächer\deutsch.html" title=""> Deutsch </a>
+                            <a href="main\pages\fächer\deutsch.html" title=""> Deutsch </a>
                         </li>
                         <li>
-                            <a href="\pages\fächer\englisch.html" title="">Englisch</a>
+                            <a href="main\pages\fächer\englisch.html" title="">Englisch</a>
                         </li>
                         <li>
-                            <a href="\pages\fächer\religion.html" title="" aria-describedby="qtip-18"> Religion </a>
+                            <a href="main\pages\fächer\religion.html" title="" aria-describedby="qtip-18"> Religion </a>
                         </li>
                         <li>
-                            <a href="\pages\fächer\geschichte.html" title="" aria-describedby="qtip-21"> Geschichte </a>
+                            <a href="main\pages\fächer\geschichte.html" title="" aria-describedby="qtip-21"> Geschichte </a>
                         </li>
                         <li>
-                            <a href="\pages\fächer\it.html" title=""> Informationstechnologie </a>
+                            <a href="main\pages\fächer\it.html" title=""> Informationstechnologie </a>
                         </li>
                         <li>
-                            <a href="\pages\fächer\mathematik.html" title=""> Mathematik </a>
+                            <a href="main\pages\fächer\mathematik.html" title=""> Mathematik </a>
                         </li>
                         <li>
-                            <a href="\pages\fächer\physik.html" title=""> Physik </a>
+                            <a href="main\pages\fächer\physik.html" title=""> Physik </a>
                         </li>
                         <li>
-                            <a href="\pages\fächer\politik.html" title=""> Politik </a>
+                            <a href="main\pages\fächer\politik.html" title=""> Politik </a>
                         </li>
                         <li>
-                            <a href="\pages\fächer\sport.html" title=""> Sport </a>
+                            <a href="main\pages\fächer\sport.html" title=""> Sport </a>
                         </li>
                     </ul>
                 </li>
@@ -177,9 +177,9 @@
     <footer>
         <div id="footer-clearer"></div>
     <div id="footer" class="breite">
-                    <span class="copyright"><a href="https://www.realschule-vohenstrauss.de/" target="_blank" data-hasqtip="36" oldtitle="Website des Staatsinstitut für Schulqualität und Bildungsforschung (ISB)" title="">© 2022 Staatliche Realschule Vohensrauß</a></span>
-        <a href="/pages/impressum.html" target="_blank" data-hasqtip="37" oldtitle="Impressum" title=""><span>Impressum</span></a>
-        <a href="/pages/datenschutz.html" target="_blank" data-hasqtip="38" oldtitle="Datenschutz" title=""><span>Datenschutz</span></a>
+                    <span class="copyright"><a href="https://www.realschule-vohenstrauss.de/" target="_blank" data-hasqtip="36" oldtitle="Staatliche Realschule Vohenstrauß" title="">© 2022 Staatliche Realschule Vohensrauß</a></span>
+        <a href="main/pages/impressum.html" target="_blank" data-hasqtip="37" oldtitle="Impressum" title=""><span>Impressum</span></a>
+        <a href="main/pages/datenschutz.html" target="_blank" data-hasqtip="38" oldtitle="Datenschutz" title=""><span>Datenschutz</span></a>
     </div>
     </footer>
 
@@ -193,5 +193,4 @@
     <div id="qtip-2" class="qtip qtip-default qtip-pos-tl" tracking="false" role="alert" aria-live="polite" aria-atomic="false" aria-describedby="qtip-2-content" aria-hidden="true" data-qtip-id="2" style="z-index: 15001;"><div class="qtip-content" id="qtip-2-content" aria-atomic="true">Staatliche Realschule Vohenstrauß</div></div>
     <div id="qtip-3" class="qtip qtip-default qtip-pos-tl" tracking="false" role="alert" aria-live="polite" aria-atomic="false" aria-describedby="qtip-3-content" aria-hidden="true" data-qtip-id="3" style="z-index: 15005;"><div class="qtip-content" id="qtip-3-content" aria-atomic="true">Zur Startseite</div></div>
     <div id="qtip-4" class="qtip qtip-default qtip-pos-tl" tracking="false" role="alert" aria-live="polite" aria-atomic="false" aria-describedby="qtip-4-content" aria-hidden="true" data-qtip-id="4" style="z-index: 15004;"><div class="qtip-content" id="qtip-4-content" aria-atomic="true">Zu den Hilfeseiten</div></div>
-    <div id="qtip-10" class="qtip qtip-default qtip-pos-tl" tracking="false" role="alert" aria-live="polite" aria-atomic="false" aria-describedby="qtip-10-content" aria-hidden="true" data-qtip-id="10" style="z-index: 15008;"><div class="qtip-content" id="qtip-10-content" aria-atomic="true">mebis-Portal</div></div>
 </body>
