@@ -1,0 +1,19 @@
+header,
+#filter,
+#pdf_sammeln,
+#navigation,
+#service,
+#footer,
+.pdf_links,
+.pdf_zur_sammlung,
+.testbetrieb,
+#sprungnavi,
+.link_toggle_all,
+#links_pdf_cart_lytebox,
+.zusatzinfos,
+#vergleich_links,
+#vergleich_rechts,
+.vollansicht,
+#lbOuterContainer {
+    display: none;
+}

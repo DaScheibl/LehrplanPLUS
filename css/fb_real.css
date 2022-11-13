@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+
+#lehrplan_plus {
+	background-image: url(../images/fb_real/lehrplan_plus.png);
+	background-repeat: no-repeat;
+	background-position: 20px -1px;
+}
+
+#header_zeile_3 {
+	background-image: url(../images/fb_real/bg_header_zeile_3.gif);
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	height: 55px;
+}
+#header_zeile_4 {
+	background-color: #fadabc;
+}
+.content_bg_verl_oben {
+	background: linear-gradient(to bottom, rgba(251,234,217,1) 0%, rgba(255,255,255,0) 100%);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 100% 100px;
+}
+.content_bg_verl_unten {
+	background-image: url(../images/fb_real/bg_content_verl_unten.gif);
+	background-repeat: repeat-x;
+	background-position: 0 bottom;
+	background-attachment: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.content_bg_verl_unten {
+	background: none;
+}
+
+.content_bg_verl_unten_2 {
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(251,234,217,1) 100%);
+	background-repeat: no-repeat;
+	position: fixed;
+	bottom: 37px;
+	height: 250px;
+	left: 0;
+	right: 0;
+	z-index: -1
+}
+
+.ausw_fach a:hover,
+.ausw_fach a:focus {
+	background-color: #fadabc;
+}
+.ausw_fach a.fach_wahl,
+.ausw_fach a.fach_wahl:visited,
+.ausw_fach a.fach_wahl:active,
+.ausw_fach a.fach_wahl:hover,
+.ausw_fach a.fach_wahl:focus {
+	background-image: url(../images/fb_real/bg_header_zeile_3_dropdown_btn.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+
+#navi_klasse ul li a:hover span, 
+#navi_klasse ul li a:active span, 
+#navi_klasse ul li a:focus span, 
+#navi_klasse ul li.active a span, 
+#navi_klasse ul li.active a:visited span, 
+#navi_klasse ul li.active a:active span, 
+#navi_klasse ul li.active a:focus span,
+#navi_klasse ul li.active a:hover span {
+	background-image: url(../images/fb_real/bg_header_zeile_4_navi_klasse.gif);
+	background-repeat: repeat-x;
+	background-position: 0 center;
+}
+
+
+ul#navi_left li.active a, 
+ul#navi_left li.active a:visited, 
+ul#navi_left li.active a:hover, 
+ul#navi_left li.active a:active, 
+ul#navi_left li.active a:focus {
+	background-image: url(../images/fb_real/navi_left_active.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+
+.fachlehrplan .closed h3 a,
+.fachlehrplan .closed h3 a:visited,
+.fachlehrplan .closed h3 a:hover,
+.fachlehrplan .closed h3 a:active,
+.fachlehrplan .closed h3 a:focus,
+.fachlehrplan .closed h4 a,
+.fachlehrplan .closed h4 a:visited,
+.fachlehrplan .closed h4 a:hover,
+.fachlehrplan .closed h4 a:active,
+.fachlehrplan .closed h4 a:focus,
+.fachlehrplan .closed h5 a,
+.fachlehrplan .closed h5 a:visited,
+.fachlehrplan .closed h5 a:hover,
+.fachlehrplan .closed h5 a:active,
+.fachlehrplan .closed h5 a:focus {
+	background-image: url(../images/fb_real/pfeil.gif);
+	background-repeat: no-repeat;
+	background-position: 0 5px;
+}
+
+.fachlehrplan .open h3 a,
+.fachlehrplan .open h3 a:visited,
+.fachlehrplan .open h3 a:hover,
+.fachlehrplan .open h3 a:active,
+.fachlehrplan .open h3 a:focus,
+.fachlehrplan .open h4 a,
+.fachlehrplan .open h4 a:visited,
+.fachlehrplan .open h4 a:hover,
+.fachlehrplan .open h4 a:active,
+.fachlehrplan .open h4 a:focus,
+.fachlehrplan .open h5 a,
+.fachlehrplan .open h5 a:visited,
+.fachlehrplan .open h5 a:hover,
+.fachlehrplan .open h5 a:active,
+.fachlehrplan .open h5 a:focus
+{
+	background-image: url(../images/fb_real/pfeil_auf.gif);
+	background-repeat: no-repeat;
+	background-position: 0 5px;
+}
+
+
+
+#schulart h3 {
+	background-image: url(../images/fb_real/pfeil.gif);
+}
+#download_lehrplan .box_oben {
+	background-image: url(../images/fb_real/download_lp_button-oben.gif);
+}
+#download_lehrplan .box_unten {
+	background-image: url(../images/fb_real/download_lp_button-unten.gif);
+}
+#download_lehrplan .box_oben a {
+	background-image: url(../images/fb_real/flp_download_pdf.gif);
+}
+
+#download_lehrplan_zusatz {
+	border-radius: 3px;
+	background-color: #DB7122;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.75) inset;
+	-webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,0.75) inset;
+	-moz-box-shadow: 0 0 3px 0 rgba(0,0,0,0.75) inset;
+}
+
+#fachlehrplan_zusatzinfos table .cell_1 a {
+	background-image: url(../images/fb_real/pfeil.gif);
+}
+
+
+a.weiterlesen {
+	background-image: url(../images/fb_real/pfeil_weiterlesen.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+a.weiterlesen:hover, 
+a.weiterlesen:focus {
+	color: #ed7404;
+}
+
+/* Ergaenzungen */
+#selected ul li {
+    background-color: #fadabc;
+}
+
+.headline_fach_jgs {
+    color: #eb7404;
+}
+
+/* Ergaenzungen 17.10.2013 Beginn */
+.link_toggle_all {
+    border-bottom-color: #ed7404;
+}
+.link_toggle_all a.closed,
+.link_toggle_all a.closed:visited,
+.link_toggle_all a.closed:active,
+.link_toggle_all a.closed:hover,
+.link_toggle_all a.closed:focus {
+    color: #ed7404;
+    background-image: url(../images/fb_real/pfeil_-_aufklappen.png);
+}
+.link_toggle_all a.open,
+.link_toggle_all a.open:visited,
+.link_toggle_all a.open:active,
+.link_toggle_all a.open:hover,
+.link_toggle_all a.open:focus {
+    color: #ed7404;
+    background-image: url(../images/fb_real/pfeil_-_zuklappen.png);
+}
+
+
+#filter a,
+#filter a:visited,
+#filter a:active,
+#filter a:hover,
+#filter a:focus {
+    border-right-color: #ed7404;
+    border-bottom-color: #ed7404;
+    border-left-color: #ed7404;
+    background-image: url(../images/fb_real/filter_bg.gif);
+}
+/* Ergaenzungen 17.10.2013 Ende */
+
+#download_lehrplan_zusatz a, #download_lehrplan_zusatz h4, #download_lehrplan a, #download_lehrplan h4 {
+	color: #000;
+}
